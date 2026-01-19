@@ -41,10 +41,7 @@ int main(void){
         jolt.push_back(first); 
         jolt.push_back(second); 
         
-        int jolt_i = stoi(jolt); 
-         
-
-        joltages.push_back(jolt_i); 
+        joltages.push_back(stoi(jolt)); 
 
     }
     int code = 0; 
